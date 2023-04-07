@@ -3,7 +3,8 @@ version: "3.8"
 services:
 
   angular:
-    image: justadirck/angular:zero
+    container_name: angular-zero
+    image: justadirck/angular-zero:latest
     build:
       context: ..
       dockerfile: ./docker/dockerfile
