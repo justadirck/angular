@@ -6,7 +6,7 @@ case "$1" in
     opts="build"
     ;;
   "start")
-    opts="up -d"
+    opts="up -d --build"
     ;;
   "stop")
     opts="down"

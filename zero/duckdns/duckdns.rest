@@ -1,0 +1,11 @@
+@domain = justadirck
+@token = 6c836a0f-ddb4-4549-893e-0c5412587c42
+@txt = authorized
+@verbose = true
+
+### update dns
+https://www.duckdns.org/update?domains={{domain}}&token={{token}}&verbose={{verbose}}
+
+### update dns with txt
+https://duckdns.org/update?domains={{domain}}&token={{token}}&txt={{txt}}&verbose={{verbose}}
+
