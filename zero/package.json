@@ -7,11 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "docker:build": "docker compose -f docker/compose.yml build",
-    "docker:logs": "docker compose -f docker/compose.yml logs -f",
-    "docker:start": "docker compose -f docker/compose.yml up -d && npm run docker:logs",
-    "docker:stop": "docker compose -f docker/compose.yml down",
-    "docker:push": "docker compose -f docker/compose.yml push"
+    "docker": "docker/docker.sh"
   },
   "private": true,
   "dependencies": {

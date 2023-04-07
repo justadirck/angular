@@ -1,7 +1,6 @@
-../.angular
+../.angular/**
+../node_modules/**
+../dist/**
 ../.vscode
 ../.gitignore
-../docker
-../dist
-../node_modules
 ../README.md
