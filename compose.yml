@@ -12,4 +12,9 @@ services:
     ports:
       - "81:80"    
 
+  two:
+    image: justadirck/angular-two:latest
+    ports:
+      - "82:80"         
+
     
