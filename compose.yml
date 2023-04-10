@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+
+  zero:
+    image: justadirck/angular-zero:latest
+    ports:
+      - "80:80"
+  
+  one:
+    image: justadirck/angular-one:latest
+    ports:
+      - "81:80"    
+
+    
