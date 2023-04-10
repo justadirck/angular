@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+
+  angular:
+    container_name: angular-knight
+    image: justadirck/angular-knight:latest
+    build:
+      context: ..
+      dockerfile: ./docker/dockerfile
+    ports:
+      - 80:80
