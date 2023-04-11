@@ -4,6 +4,7 @@
     "scripts": {
         "start": "webpack serve",
         "build": "webpack build --mode=production",
+        "restart": "scripts/restart.sh",
         "docker": "docker/docker.sh"
     },
     "dependencies": {
@@ -12,7 +13,12 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.14",
+        "copy-webpack-plugin": "^11.0.0",
         "css-loader": "^6.7.3",
+        "dotenv": "^16.0.3",
+        "eslint": "^8.38.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-webpack-plugin": "^4.0.1",
         "html-loader": "^4.2.0",
         "html-webpack-plugin": "^5.5.0",
         "postcss-loader": "^7.2.4",

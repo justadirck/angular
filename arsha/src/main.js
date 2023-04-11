@@ -1,5 +1,5 @@
 // Import our custom CSS
-import "./app/scss/styles.scss";
+import "./styles.scss";
 
 /**
  * Easy selector helper function
