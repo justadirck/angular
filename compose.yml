@@ -35,6 +35,21 @@ services:
   niceadmin:
     image: justadirck/angular-niceadmin:latest
     ports:
-      - 87:80                 
+      - 87:80         
+
+  impact:
+    image: justadirck/angular-impact:latest
+    ports:
+      - 88:80   
+
+  gp:
+    image: justadirck/angular-gp:latest
+    ports:
+      - 89:80        
+
+  myresume:
+    image: justadirck/angular-myresume:latest
+    ports:
+      - 90:80                          
 
     
