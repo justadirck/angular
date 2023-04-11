@@ -495,7 +495,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../images/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -761,7 +761,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../images/cta-bg.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1334,7 +1334,7 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left top no-repeat;
+  background: url("../images/contact-bg.png") left top no-repeat;
   background-size: contain;
   position: relative;
 }

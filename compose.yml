@@ -2,64 +2,108 @@ version: "3.8"
 
 services:
 
+  zero:
+    build: 
+      context: ./zero
+      dockerfile: docker/dockerfile
+    image: justadirck/angular-zero:latest
+    ports:
+      - 80:80  
+
   arsha:
+    build: 
+      context: ./arsha
+      dockerfile: docker/dockerfile
     image: justadirck/angular-arsha:latest
     ports:
       - 81:80   
 
   iportfolio:
+    build: 
+      context: ./iportfolio
+      dockerfile: docker/dockerfile
     image: justadirck/angular-iportfolio:latest
     ports:
       - 82:80      
 
   knight:
+    build: 
+        context: ./knight
+        dockerfile: docker/dockerfile
     image: justadirck/angular-knight:latest
     ports:
       - 83:80     
 
   niceadmin:
+    build: 
+        context: ./niceadmin
+        dockerfile: docker/dockerfile
     image: justadirck/angular-niceadmin:latest
     ports:
       - 84:80         
 
   impact:
+    build: 
+        context: ./impact
+        dockerfile: docker/dockerfile
     image: justadirck/angular-impact:latest
     ports:
       - 85:80   
 
   gp:
+    build: 
+        context: ./gp
+        dockerfile: docker/dockerfile
     image: justadirck/angular-gp:latest
     ports:
       - 86:80        
 
   myresume:
+    build: 
+        context: ./myresume
+        dockerfile: docker/dockerfile
     image: justadirck/angular-myresume:latest
     ports:
-      - 87:80    
+      - 88:80    
 
   herobiz:
+    build: 
+        context: ./herobiz
+        dockerfile: docker/dockerfile
     image: justadirck/angular-herobiz:latest
-    ports:
-      - 88:80  
-
-  photofolio:
-    image: justadirck/angular-photofolio:latest
     ports:
       - 89:80  
 
-  upconstruction:
-    image: justadirck/angular-upconstruction:latest
+  photofolio:
+    build: 
+        context: ./photofolio
+        dockerfile: docker/dockerfile
+    image: justadirck/angular-photofolio:latest
     ports:
       - 90:80  
 
-  yummy:
-    image: justadirck/angular-yummy:latest
+  upconstruction:
+    build: 
+        context: ./upconstruction
+        dockerfile: docker/dockerfile
+    image: justadirck/angular-upconstruction:latest
     ports:
       - 91:80  
 
+  yummy:
+    build: 
+        context: ./yummy
+        dockerfile: docker/dockerfile
+    image: justadirck/angular-yummy:latest
+    ports:
+      - 92:80  
+
   zenblog:
+    build: 
+        context: ./zenblog
+        dockerfile: docker/dockerfile
     image: justadirck/angular-zenblog:latest
     ports:
-      - 92:80                                                      
+      - 93:80                                                      
 
     

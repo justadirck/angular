@@ -23,7 +23,7 @@ export class ProfileComponent {
     password: ''
   };
   editMode = false;
-  public avatar: string = './assets/img/profile.png';
+  public avatar: string = './assets/images/profile.png';
 
   startEdit() {
     this.editMode = true;
