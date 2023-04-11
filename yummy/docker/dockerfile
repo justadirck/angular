@@ -1,0 +1,6 @@
+FROM nginx:mainline-alpine as deploy
+
+WORKDIR /usr/share/nginx/html
+COPY ./src .
+
+COPY docker/nginx.conf /etc/nginx/nginx.conf

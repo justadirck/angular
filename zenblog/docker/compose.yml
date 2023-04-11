@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+
+  angular:
+    container_name: angular-zenblog
+    image: justadirck/angular-zenblog:latest
+    build:
+      context: ..
+      dockerfile: ./docker/dockerfile
+    ports:
+      - 80:80

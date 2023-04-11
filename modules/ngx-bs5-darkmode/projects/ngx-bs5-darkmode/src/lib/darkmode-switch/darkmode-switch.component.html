@@ -1,0 +1,5 @@
+<button class="form-control" (click)="changeTheme()"
+        [ngbTooltip]="themeService.theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'">
+  {{ themeService.theme === "dark" ? lightIcon : darkIcon}}
+</button>
+

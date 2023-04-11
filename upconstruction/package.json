@@ -1,0 +1,7 @@
+{
+  "project": "upconstruction",
+  "version": "0.0.0",
+  "scripts": {
+    "docker": "docker/docker.sh"
+  }
+}
