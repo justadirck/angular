@@ -2,13 +2,13 @@ version: "3.8"
 
 services:
 
-  zero:
-    build: 
-      context: ./zero
-      dockerfile: docker/dockerfile
-    image: justadirck/angular-zero:latest
-    ports:
-      - 80:80  
+  # zero:
+  #   build: 
+  #     context: ./zero
+  #     dockerfile: docker/dockerfile
+  #   image: justadirck/angular-zero:latest
+  #   ports:
+  #     - 80:80  
 
   arsha:
     build: 
@@ -112,6 +112,6 @@ services:
         dockerfile: docker/dockerfile
     image: justadirck/angular-risen:latest
     ports:
-      - 93:80                                                 
+      - 94:80                                                 
 
     
