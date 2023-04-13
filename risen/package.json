@@ -1,7 +1,0 @@
-{
-  "project": "risen",
-  "version": "0.0.0",
-  "scripts": {
-    "docker": "docker/docker.sh"
-  }
-}
