@@ -6,6 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "build-gcp": "ng build -c production --base-href /angular-30307/resume/",
+    "deploy-gcp": "gsutil -m -o \"GSUtil:parallel_process_count=1\" -h Cache-Control:\"private, max-age=0, no-transform\" cp -r -z js,css ./dist/resume/* gs://angular-30307/resume/",
+    "gcp": "npm run build-gcp && npm run deploy-gcp",
     "test": "ng test"
   },
   "private": true,
@@ -18,6 +21,7 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "resume": "file:",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
